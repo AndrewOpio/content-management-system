@@ -1,0 +1,49 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^category/([0-9]+)/([a-zA-Z_]+) category.php?id=$1&title=$2
+    RewriteRule ^article/([0-9]+)/([a-zA-Z_]+) article.php?id=$1&title=$2
+    RewriteRule ^page/([0-9]+)/([a-zA-Z_]+)/([a-zA-Z_]+) page.php?id=$1&type=$2&title=$3
+    RewriteRule ^gallery/([a-zA-Z_]+) gallery.php?type=$1
+    RewriteRule ^home index.php
+    RewriteRule ^edit editor.php
+</IfModule>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

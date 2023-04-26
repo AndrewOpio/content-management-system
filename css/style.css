@@ -1,0 +1,336 @@
+﻿body{
+    background-color: #fff;
+}
+
+aside{
+    width: 23%;
+    padding-left: 15px;
+    margin-right: 10px;
+    float: right;
+}
+
+
+.arr{
+    background-color: #fcd00d !important; 
+}
+
+td{
+  padding: 0px;
+}
+
+img{
+    padding: 5px;
+}
+
+video{
+    padding: 5px;
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+
+.ham-burger{
+   float: right;
+}
+
+hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.mobi{
+    color: #fff;
+    border: none;
+    background-color: #212529;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.cat_desc{
+    margin-top: 15px;
+}
+
+.link-text{
+    color: #fff;
+    font-size: 17px;
+}
+
+.link-text:hover{
+    color:#fcd00d;
+
+}
+
+
+.link-text:active{
+    color:#fcd00d;
+
+}
+
+section{
+    padding: 15px;
+    margin-top:0%;
+}
+
+.card{
+    margin: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0, 0.1);
+    transition: 0.3s;
+    padding: 2px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.action{
+    width: 20px;
+ }
+ 
+.title{
+    padding-left: 20px;
+    margin-top: 0px;
+    border-style: solid;
+    border-left-width: 10px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border-color:#e60f0f;
+    display: flex;
+    color: green;
+}
+
+
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.subs{
+    display: flex; 
+}
+
+img:hover{
+    transform: scale(1.005);
+}
+
+
+.vid:hover{
+    transform: scale(1.005);
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  
+.wraper{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bttn{
+    float: right;
+    background-color: #fcd00d;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.upper{
+   widows: 100%;
+   background-color: #212529;
+}
+
+.lower{
+    background-color: #212529 !important;
+}
+
+.socials {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px; 
+}
+
+footer{
+    background-color: #212529;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    bottom:0;
+    width:100%;
+    height:100%;
+    float: right;
+}
+
+.footer-item{
+   color: #fff;
+   margin-top: 5px;
+   font-size: 15px;
+}
+
+.footer-link:hover{
+    color: #fcd00d;
+ }
+
+ .social-link{
+     padding-left: 10px;
+ }
+
+.btn-rw{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px; 
+    float: right; 
+    background-color: #fcd00d;
+    background-color: #fcd00d;  
+}
+
+.navbar-header{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .card-pd{
+        padding-left: 30px;
+        margin-right: 2px;
+    }
+    
+    .arr{
+        width: 20px;  
+    }
+    
+    .arr > img{
+        margin-left: -11px;
+    }
+
+    aside{
+        display: none !important; 
+        width: 100%;
+        margin-top: 150px; 
+        padding-left: 20px;
+    }
+
+    .navbar-header{
+        display: block;
+    }
+
+    section{
+        margin-top:140px; 
+    }
+
+
+    .side{
+        margin-left:25px;
+        width: 80%;
+    }
+    
+}
+
+.parts{
+    background-color: #212529;
+    border: none;
+    color: #fff;
+}
+
+@media (min-width: 769px){
+    .navbar-header{
+        display: none;
+    }
+    section{
+        margin-top:90px; 
+    }
+
+}
+
+.card-margin{
+    margin-top: 15px;
+}
+
+.card-pd{
+    padding-top: 10px;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.card-footer{
+   margin-bottom: 10px;
+}
+
+.desc{
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.desc1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+.side{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 92%;
+}
+
+.when{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.when-main{
+    margin-left: 5px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.head{
+    margin-left: 10px;
+}
+
+.datetime{
+    font-size: 12px;
+}
+
+.date{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+
